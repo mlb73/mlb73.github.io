@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+        
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="icon" type="image/png" href="img/logo transparant rond.png">
+
+    <title>Bienvenus sur l'Oasis</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    
+</head>
+
+<body>   
+
+    <!-- entête navigation début -->
+
+    <nav id="p">
+        <div class="logo">
+            <h4>l'oasis</h4>
+        </div>
+        <ul class="nav-links">
+
+            <li>
+                <a href="#accueil">Accueil</a>
+            </li>
+            <li>
+                <a href="#about">A Propos De Nous</a>
+            </li>
+            <li>
+                <a href="#menu">Menu</a>
+            </li>
+            <li>
+                <a href="#contact-global">Contact</a>
+            </li>
+
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <!-- entête navigation fin -->
+
+    <article class="accueil" id="accueil">
+        <h1 class="title">l'Oasis</h1>
+    </article>
+    
+    <!-- block 1 début-->
+
+    <section class="about" id="about">
+
+        <div class="image" data-aos="fade-right"></div>
+    
+        <div class="content" data-aos="fade-left">
+
+            <div id="3"></div>
+            
+            <div id="2">
+                
+                <h3>un mot sur nous</h3>
+                <p><span><b>L'Oasis</b>, c’est n’est pas un restaurant, c’est une expérience et un voyage.</span>
+                    <span><b>L'Oasis</b> vous offre un large choix de plats specialement conçu pour vous faire voyager dans le temps et de retrouver le goût si spécial des cuisines conviviale!</span> 
+                    <span><b>Savourez</b> également nos viandes d’exception, au feu de bois, sélectionnées grâce à nos fournisseurs locaux.</span> 
+                    <span><b>Partagez</b> cette histoire en famille, entre amis ou en couple. C’est vous qui choisissez !</span>
+                </p>
+                <p>
+                    Situé à côté du cinéma Pathe Gaumont a Archanmps, un large parking vous offre la possibilité de stationner et de profiter d’une offre food sur-mesure avant ou après une jolie séance de cinéma ! 
+                </p>
+
+            </div>
+
+            <button onclick="affiche_text('mon text 1');" class="btn" id="1">nos heure d'ouverture</button>
+            
+        </div>
+    
+    </section>
+
+    <!-- block 1 fin-->
+
+    <!-- choix du menu starts -->
+
+    <section class="menu" id="menu">
+
+        <h1 class="heading1">nos differents menu</h1>
+
+        <div class="box-container">
+
+            <div class="1" data-aos="fade-left" >
+
+                <div class="box">
+                    <img src="img/tartareM2.png" alt="image pour section">
+                    <div class="info">
+                        <h3>menu classique</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi quis fugiat voluptate minus et similique laborum voluptatum nulla. Perspiciatis et, praesentium itaque nostrum consequuntur earum animi vitae quae ducimus magnam.</p>
+                        <button onclick="togglePopup1()" class="btn">more</button>
+                    </div>
+                
+                </div>
+
+
+                <div class="box">
+                    <img src="img/Quenelle.jpg" alt="image pour section" height="331px">
+                    <div class="info">
+                        <h3>menu gourmet</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi quis fugiat voluptate minus et similique laborum voluptatum nulla. Perspiciatis et, praesentium itaque nostrum consequuntur earum animi vitae quae ducimus magnam.</p>
+                        <button onclick="togglePopup2()" class="btn">more</button>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="2" data-aos="fade-right">
+
+                <div class="box">
+                    <img src="img/plat_vegetarien2.jpg" alt="image pour section" height="381px">
+                    <div class="info">
+                        <h3>menu végétarien</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi quis fugiat voluptate minus et similique laborum voluptatum nulla. Perspiciatis et, praesentium itaque nostrum consequuntur earum animi vitae quae ducimus magnam.</p>
+                        <button onclick="togglePopup3()" class="btn">more</button>
+                    </div>
+                </div>
+
+
+                <div class="box">
+                    <img src="img/escargots.jpeg" alt="image pour section" height="331px">
+                    <div class="info">
+                        <h3>menu a partage</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi quis fugiat voluptate minus et similique laborum voluptatum nulla. Perspiciatis et, praesentium itaque nostrum consequuntur earum animi vitae quae ducimus magnam.</p>
+                        <button onclick="togglePopup4()" class="btn">more</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    
+    <!-- choix du menu ends -->
+
+    <!-- block contact début -->
+
+    <section class="contact-global" id="contact-global">
+
+        <h1 class="heading1">nous contacter</h1>
+
+        <div class="repertoire-global" id="repertoire-global">
+
+            <div class="partit_1" data-aos="slide-up">
+
+                <div class="input-contact">
+                    <input type="text" placeholder="prénom" id="name1" class="box">
+                </div>
+    
+                <div class="input-contact">
+                    <input type="text" placeholder="nom de famille" id="name" class="box">
+                </div>
+    
+    
+                <div class="input-contact">
+                    <input type="email" placeholder="email" id="email-input" class="box">
+                </div>
+    
+                <div class="input-contact">
+                    <input type="number" placeholder="numero téléphonique" id="number" class="box">
+                </div>
+    
+                <div class="input-contact"> 
+                    <input type="password" placeholder="mots de passe" id="password" class="box">
+                </div>
+    
+                <div class="input-contact">
+                    <input type="password" placeholder="confirmation du mots de passe" id="password" class="box">
+                </div>
+    
+                <button class="btn">valider</button>
+
+            </div>
+  
+            <div class="partit_2" data-aos="slide-up">
+                <div class="contact_image"><img src="img/bar.jpg" alt="image_decoration" height="115%"></div>
+            </div>
+
+        </div>
+  
+    </section>
+
+    <!-- block contact fin -->
+
+    
+
+    <!-- Les differents popup début -->
+
+
+    <div class="menu_popup">
+
+        <div class="popup" id="popup-1">
+
+            <div class="overlay"></div>
+            <div class="content">
+            
+                <div class="close-btn" onclick="togglePopup1()">&times;</div>
+    
+                <div class="img_popup">
+                    <img src="img/L  Oasis_C.jpg" height="1000rem" alt="menu">
+                </div>
+    
+            </div>
+    
+        </div>
+    
+          <div class="popup" id="popup-2">
+    
+            <div class="overlay"></div>
+            <div class="content">
+            
+                <div class="close-btn" onclick="togglePopup2()">&times;</div>
+    
+                <div class="img_popup">
+                    <img src="img/L  Oasis_G.jpg" height="1000rem" alt="menu">
+                </div>
+    
+            </div>
+    
+          </div>
+          
+          <div class="popup" id="popup-3">
+    
+            <div class="overlay"></div>
+            <div class="content">
+            
+                <div class="close-btn" onclick="togglePopup3()">&times;</div>
+    
+                <div class="img_popup">
+                    <img src="img/L  Oasis_V.jpg" height="1000rem" alt="menu">
+                </div>
+    
+            </div>
+    
+          </div>
+          
+          <div class="popup" id="popup-4">
+    
+            <div class="overlay"></div>
+            <div class="content">
+            
+                <div class="close-btn" onclick="togglePopup4()">&times;</div>
+    
+                <div class="img_popup">
+                    <img src="img/L  Oasis_P.jpg" height="1000rem" alt="menu">
+                </div>
+    
+            </div>
+    
+          </div>
+
+    </div>
+    
+
+    <!-- Les differents popup début -->
+
+    <script src="autre/app.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <script>
+        AOS.init({
+            delay:400,
+            duration:1000
+        })
+    </script>
+
+    <script>
+        function affiche_text(text){
+        document.getElementById("3").innerHTML = '<h3 class="foo1">Nos horraire</h3>';
+        document.getElementById("2").innerHTML = '<p class="foo2">Vous pouver nous retrouver de samedis a vendredis </p>';
+        }
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+background: url('../images/bg.jpg');
+    background-size: cover;
+    height: 80vh;
+    padding: 25px;
+
+
+rgb(69 115 83)
+
+#357e4f
+
+rgb(12, 94, 94)
+
+
+    <!-- block contact début -->
+
+<section class="contact-global" id="contact-global">
+
+            <h1 class="heading1">nous contacter</h1>
+
+            <div>    
+                <input type="text" placeholder="votre nom" id="name">
+                <input type="email" placeholder="votre email" id="email-input">
+                <input type="password" placeholder="votre mots de passe" id="password">
+                <input type="number" placeholder="votre numero " id="number">
+                <button class="btn">valider</button>
+            </div>
+
+</section>
+
+
+    <!-- block contact fin -->
+
+
+    <!-- block 2 début -->
+
+    <section class="block2-global" id="global">
+
+        <video src="../img/vdo-oasis.mp4"class="img" controles autoplay></video>
+
+        <div class="content" data-aos="fade-right">
+            <h3>un mot sur nous</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea accusantium eligendi a totam consequatur! Quis minus amet iusto iure repudiandae, incidunt enim fugiat ipsa? Iure quam et quo quos quisquam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint totam pariatur saepe sit nostrum consequuntur, praesentium accusamus harum voluptate soluta.</p>
+            <a href="#"><button class="btn">learn more</button></a>
+        </div>
+        
+    </section>
+
+    <!-- block 2 fin -->
+
+/* css block 2 début */
+
+.block2-global{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    padding:1rem 10%;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.block2-global .image{
+    flex:1 1 40rem;
+    height:50rem;
+    background:url(../img/team_5.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.block2-global .content{
+    flex:1 1 40rem;
+    padding:2rem;
+}
+
+.block2-global .content h3{
+    font-size: 4rem;
+    color:#333;
+}
+
+.block2-global .content p{
+    font-size: 1.6rem;
+    color:#666;
+    padding:1rem 0;
+}
+
+    display: flex;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.384);
+    border-radius: 1rem;
+    margin: 0 25%;
+    padding-top:15px;
+    padding-bottom:15px;
+    background-color: #e0e0e0;
+    background-size: 100%;
+
+partit surprise 
+    je voulais vous remercier. oui oui toi, si tu en est arriver a se message c'est que tu a pris le temps de regarder mon site et sa me fais trés plaisir mais je voudrais remercier en particulier : elisa pour avoir corriger l'ensemble des texte que vous pouvez lire, Prune pour avoir corriger les differents menu et d'avoir fais le menu "a partager", adiren et maelyss pour m'avoir proposer des menu

@@ -1,0 +1,70 @@
+les smylets baton : https://wprock.fr/t/kaomoji/
+image libre de droits: https://pixabay.com/fr/images/search/cuisine/
+https://www.la-bouitte.com/fr/restaurant/cartes-et-menus.html
+http://memo-web.fr/categorie-javascript-132/
+Pour allez sur les 3 menus different on selectionne et on click et sa ouvre dans une nouvelle 
+pages
+
+    <ol>
+        <li>les entrées 
+            <ul>
+                <li>salade bio a la tomates </li>
+                <li>mini faritas au legume du jardins</li>
+            </ul>
+        </li>
+    </ol>
+
+
+    <thead>
+            <tr>
+                <th>Les diférente Entrée</th>
+                <th>Le prix</th>
+            </tr>
+    </thead>
+       
+    <label for="menu">Selectioner votre menu</label>
+        <select name="menu" id="menu">
+            <option value="1">menu 1</option>
+            <option value="2">menu 2</option>
+            <option value="3">menu 3</option>
+        </select>
+
+
+
+body
+{
+    font-family:"Questa_Regular",Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    background-image: url("img/platter.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 5cm;
+}
+
+#conteneur
+{
+    display: flex-end;
+    justify-content: space-around;
+}
+
+#8d6205
+#285b3b
+    color: rgb(10, 97, 119);
+    ,Arial, Helvetica, sans-serif;
+
+<div>
+    <label for="sexe">Selectioner votre sexe</label>
+        <select name="sexe" id="sexe">
+            <option value="1">Femmes</option>
+            <option value="2">Hommes</option>
+            <option value="3">Autres</option>    
+        </select>
+</div>
+
+.text-1{
+    text-align:right;
+    color: rgb(255, 255, 255);
+}
+
+
+    width:60%;
